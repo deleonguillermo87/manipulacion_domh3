@@ -1,0 +1,127 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body{
+    background-color: #111827;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+/* CONTENEDOR */
+.contenedor{
+    width: 400px;
+
+    background-color: #1f2937;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+}
+
+/* TITULO */
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* TEXTO */
+p{
+    text-align: center;
+    margin-bottom: 20px;
+
+    color: #cbd5e1;
+}
+
+/* INPUT Y BOTON */
+.acciones{
+    display: flex;
+    gap: 10px;
+}
+
+/* INPUT */
+input{
+    flex: 1;
+
+    padding: 10px;
+
+    border: none;
+    border-radius: 8px;
+
+    outline: none;
+}
+
+/* BOTON AGREGAR */
+#agregarBtn{
+    padding: 10px 15px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #3b82f6;
+
+    color: white;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* HOVER BOTON */
+#agregarBtn:hover{
+    background-color: #2563eb;
+}
+
+/* LISTA */
+ul{
+    margin-top: 20px;
+
+    list-style: none;
+}
+
+/* LI */
+li{
+    background-color: #374151;
+
+    padding: 10px;
+
+    border-radius: 8px;
+
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* BOTON ELIMINAR */
+li button{
+    background-color: #ef4444;
+
+    border: none;
+
+    padding: 6px 10px;
+
+    border-radius: 6px;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+/* HOVER ELIMINAR */
+li button:hover{
+    background-color: #dc2626;
+}
